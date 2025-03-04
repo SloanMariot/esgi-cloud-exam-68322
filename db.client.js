@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  'postgres:postgresql://esgi_cloud_exam_db_68322_user:U7EuM1ZbXXLJTTzd47fzrPnD1R0q5Lic@dpg-cv3aqortq21c73bi9s6g-a/esgi_cloud_exam_db_68322',
+  'postgresql://esgi_cloud_exam_db_68322_user:U7EuM1ZbXXLJTTzd47fzrPnD1R0q5Lic@dpg-cv3aqortq21c73bi9s6g-a/esgi_cloud_exam_db_68322',
   {
     dialectOptions: {
       ssl: {
